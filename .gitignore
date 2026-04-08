@@ -1,7 +1,10 @@
 __pycache__/
 *.pyc
-results/
 data/
-*.png
-*.jpg
-*.csv
+
+# Ignore all results except key ones
+results/*
+!results/normal_only/
+!results/normal_plus_attack/
+!results/normal_only/*.png
+!results/normal_plus_attack/*.png
