@@ -2,9 +2,7 @@ __pycache__/
 *.pyc
 data/
 
-# Ignore all results except key ones
+# Ignore everything in results except this
 results/*
-!results/normal_only/
 !results/normal_plus_attack/
-!results/normal_only/*.png
 !results/normal_plus_attack/*.png
